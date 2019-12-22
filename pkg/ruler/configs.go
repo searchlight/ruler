@@ -4,7 +4,7 @@ import (
 	"flag"
 	"time"
 
-	"searchlight.dev/ruler/pkg/cluster"
+	"go.searchlight.dev/ruler/pkg/cluster"
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/prometheus/promql"

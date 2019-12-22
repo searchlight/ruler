@@ -3,7 +3,7 @@ package ruler
 import (
 	"time"
 
-	"searchlight.dev/ruler/pkg/cluster"
+	"go.searchlight.dev/ruler/pkg/cluster"
 
 	utilerrors "github.com/appscode/go/util/errors"
 	"github.com/cortexproject/cortex/pkg/util"

@@ -1,4 +1,4 @@
-[![Go Report Card](https://goreportcard.com/badge/searchlight.dev/ruler)](https://goreportcard.com/report/searchlight.dev/ruler)
+[![Go Report Card](https://goreportcard.com/badge/go.searchlight.dev/ruler)](https://goreportcard.com/report/go.searchlight.dev/ruler)
 [![Build Status](https://github.com/searchlight/ruler/workflows/CI/badge.svg)](https://github.com/searchlight/ruler/actions?workflow=CI)
 [![codecov](https://codecov.io/gh/searchlight/ruler/branch/master/graph/badge.svg)](https://codecov.io/gh/searchlight/ruler)
 [![Docker Pulls](https://img.shields.io/docker/pulls/searchlight/ruler.svg)](https://hub.docker.com/r/searchlight/ruler/)

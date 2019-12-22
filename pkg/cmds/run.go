@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"searchlight.dev/ruler/pkg/logger"
-	"searchlight.dev/ruler/pkg/m3coordinator"
-	"searchlight.dev/ruler/pkg/m3query"
-	"searchlight.dev/ruler/pkg/ruler"
-	"searchlight.dev/ruler/pkg/ruler/api"
-	"searchlight.dev/ruler/pkg/storage/etcd"
+	"go.searchlight.dev/ruler/pkg/logger"
+	"go.searchlight.dev/ruler/pkg/m3coordinator"
+	"go.searchlight.dev/ruler/pkg/m3query"
+	"go.searchlight.dev/ruler/pkg/ruler"
+	"go.searchlight.dev/ruler/pkg/ruler/api"
+	"go.searchlight.dev/ruler/pkg/storage/etcd"
 
 	utilerrors "github.com/appscode/go/util/errors"
 	"github.com/go-kit/kit/log"

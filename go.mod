@@ -1,9 +1,9 @@
-module searchlight.dev/ruler
+module go.searchlight.dev/ruler
 
 go 1.12
 
 require (
-	github.com/appscode/go v0.0.0-20191025021232-311ac347b3ef
+	github.com/appscode/go v0.0.0-20191119085241-0887d8ec2ecc
 	github.com/armon/go-metrics v0.0.0-20190430140413-ec5e00d3c878 // indirect
 	github.com/coreos/bbolt v1.3.2 // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
@@ -47,3 +47,5 @@ require (
 	k8s.io/client-go v10.0.0+incompatible // indirect
 	stathat.com/c/consistent v1.0.0
 )
+
+replace k8s.io/client-go => k8s.io/client-go v10.0.0+incompatible // indirect

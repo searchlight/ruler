@@ -3,7 +3,7 @@ package ruler
 import (
 	"context"
 
-	"searchlight.dev/ruler/pkg/m3coordinator"
+	"go.searchlight.dev/ruler/pkg/m3coordinator"
 
 	"github.com/prometheus/prometheus/pkg/labels"
 	"github.com/prometheus/prometheus/prompb"

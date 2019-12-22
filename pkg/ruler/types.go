@@ -3,8 +3,8 @@ package ruler
 import (
 	"time"
 
-	"searchlight.dev/ruler/pkg/logger"
-	"searchlight.dev/ruler/pkg/promquery"
+	"go.searchlight.dev/ruler/pkg/logger"
+	"go.searchlight.dev/ruler/pkg/promquery"
 
 	erragg "github.com/appscode/go/util/errors"
 	"github.com/go-kit/kit/log"

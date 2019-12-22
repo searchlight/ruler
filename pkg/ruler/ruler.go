@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"searchlight.dev/ruler/pkg/cluster"
-	logger2 "searchlight.dev/ruler/pkg/logger"
-	"searchlight.dev/ruler/pkg/m3coordinator"
+	"go.searchlight.dev/ruler/pkg/cluster"
+	logger2 "go.searchlight.dev/ruler/pkg/logger"
+	"go.searchlight.dev/ruler/pkg/m3coordinator"
 
 	utilerrors "github.com/appscode/go/util/errors"
 	gklog "github.com/go-kit/kit/log"

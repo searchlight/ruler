@@ -1,14 +1,14 @@
 curl -X POST \
 -H "X-AppsCode-UserID: 1" \
 -H "Content-Type: application/json" \
--d "@/home/ac/go/src/searchlight.dev/ruler/artifacts/k8s/rules/sample-rule.json" \
+-d "@/home/ac/go/src/go.searchlight.dev/ruler/artifacts/k8s/rules/sample-rule.json" \
 http://localhost:18443/api/v1/rules
 
 
 curl -X POST \
 -H "X-AppsCode-UserID: 1" \
 -H "Content-Type: application/json" \
--d "@/home/ac/go/src/searchlight.dev/ruler/artifacts/k8s/rules/recording-rule-1.json" \
+-d "@/home/ac/go/src/go.searchlight.dev/ruler/artifacts/k8s/rules/recording-rule-1.json" \
 http://localhost:18443/api/v1/rules
 
 
@@ -25,13 +25,13 @@ http://localhost:18443/api/v1/rules
 curl -X POST \
 -H "X-AppsCode-UserID: 2" \
 -H "Content-Type: application/json" \
--d "@/home/ac/go/src/searchlight.dev/ruler/artifacts/k8s/rules/sample-rule-2.json" \
+-d "@/home/ac/go/src/go.searchlight.dev/ruler/artifacts/k8s/rules/sample-rule-2.json" \
 http://localhost:18443/api/v1/rules
 
 curl -X POST \
 -H "X-AppsCode-UserID: 2" \
 -H "Content-Type: application/json" \
--d "@/home/ac/go/src/searchlight.dev/ruler/artifacts/k8s/rules/recording-rule-2.json" \
+-d "@/home/ac/go/src/go.searchlight.dev/ruler/artifacts/k8s/rules/recording-rule-2.json" \
 http://localhost:18443/api/v1/rules
 
 

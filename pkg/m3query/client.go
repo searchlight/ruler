@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"time"
 
-	"searchlight.dev/ruler/pkg/logger"
+	"go.searchlight.dev/ruler/pkg/logger"
 
 	utilerrors "github.com/appscode/go/util/errors"
 	"github.com/go-kit/kit/log/level"

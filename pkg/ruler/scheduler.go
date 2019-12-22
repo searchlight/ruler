@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"searchlight.dev/ruler/pkg/logger"
+	"go.searchlight.dev/ruler/pkg/logger"
 
 	utilerrors "github.com/appscode/go/util/errors"
 	"github.com/cortexproject/cortex/pkg/util"

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"searchlight.dev/ruler/pkg/ruler"
+	"go.searchlight.dev/ruler/pkg/ruler"
 
 	"github.com/golang/glog"
 	"github.com/gorilla/mux"

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"searchlight.dev/ruler/pkg/ruler"
+	"go.searchlight.dev/ruler/pkg/ruler"
 
 	utilerrors "github.com/appscode/go/util/errors"
 	"github.com/go-kit/kit/log"
